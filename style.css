@@ -1,0 +1,42 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Khmer OS Freehand';
+    color:black;
+}
+h2
+{
+    margin-left : 150px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'Khmer OS Muol Light';
+    font-size: 36px;
+    color: white;
+}
+ul
+{
+    margin-left: 80px;
+}
+h3
+{   
+    font-family:'Khmer OS Muol Light' ;
+    margin-left: 100px;
+}
+p
+{
+    margin-left: 100px;
+    text-align: justify;
+    width: 90%;
+}
+.name
+{
+    background: rgb(0,100,0);
+}
+img{
+    float: right;
+    padding-right: 200px;
+    width: 200px;
+    height: 280px;
+}
+

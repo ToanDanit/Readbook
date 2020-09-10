@@ -1,0 +1,45 @@
+body{
+    background-image: url(image.1/bg.3.jpeg );  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family:'Khmer OS Muol Light';
+}
+.ab{ 
+    background-color: rgb(0,100,0);
+    color: white;
+}
+h1 {
+    margin-left: 100px;
+    font-size: 36px;
+}
+h3{
+    font-size: 22px;
+    margin-left: 80px;
+}
+p{
+  font-family: 'khmer os freehand';  
+}
+
+div .story{
+    background-color: tomato;
+    width: 45%;
+    float: left;
+}
+div .pic{
+    background-color: violet;
+    width: 25%;
+    float: left;
+    
+
+}
+
+   
+
+
+
+
+
