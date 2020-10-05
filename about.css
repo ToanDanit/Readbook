@@ -117,6 +117,7 @@ h3{
 p{
   font-family: 'khmer os freehand';  
 }
+
 .container
 {
     width: 40%;
@@ -128,6 +129,25 @@ p{
     transform: translate(-50% ,-50%);
     margin-top: 50px;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container
+{
+    width: 80%;
+    height: 75vh;
+    background: rgba(0,100,0,0.4);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 50px;
+}
+    .img{
+        height: 200px;
+        width: 200px;
+    }
+  }
+
 .img
 {
     height: 100px;
