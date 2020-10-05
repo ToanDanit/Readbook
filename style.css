@@ -27,7 +27,7 @@ p
 {
     margin-left: 100px;
     text-align: justify;
-    width: 90%;
+    /* width: 100%; */
     padding-right: 5%;
 }
 .name
