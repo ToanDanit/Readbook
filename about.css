@@ -118,7 +118,19 @@ p{
   font-family: 'khmer os freehand';  
 }
 
-.container
+.container{
+    width: 80%;
+    height: 40vh;
+    background: rgba(0,100,0,0.4);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 50px;
+}
+@media only screen and (min-width: 1000px) {
+    /* For mobile phones: */
+    .container
 {
     width: 40%;
     height: 75vh;
@@ -129,23 +141,20 @@ p{
     transform: translate(-50% ,-50%);
     margin-top: 50px;
 }
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .container
+.img
 {
-    width: 80%;
-    height: 75vh;
-    background: rgba(0,100,0,0.4);
+    height: 200px;
+    width: 200px;
+    background: url(image.1/img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
     position: absolute;
-    top: 55%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50% ,-50%);
-    margin-top: 50px;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
 }
-    .img{
-        height: 200px;
-        width: 200px;
-    }
   }
 
 .img
